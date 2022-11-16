@@ -19,8 +19,8 @@
                 ><span class="logo-left-part">Web</span
                 ><span class="logo-right-part">Studio</span></a
             >
-            <nav class="navigation">
-                <ul>
+            <nav>
+                <ul class="link-list">
                     <li>
                         <a href="#">Agencja</a>
                     </li>
@@ -30,14 +30,21 @@
                     <li><a href="#">Kontakt</a></li>
                 </ul>
             </nav>
-            <ul>
+            <ul class="contact-list">
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-item" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
                 </li>
-                <li><a href="tel:48111111111">+48 111 111 111</a></li>
+                <li>
+                    <a class="contact-item" href="tel:48111111111"
+                        >+48 111 111 111</a
+                    >
+                </li>
             </ul>
         </header>
         <main>
+            <!--BUTTONS-->
             <ul class="category-selection">
                 <li>
                     <button class="category-select" type="button">
@@ -65,16 +72,17 @@
                     </button>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <!--CATEGORY/GALLERY-->
+            <ul class="img-section-list">
+                <li class="img-section-list-item">
                     <img
                         src="img/website.jpg"
                         alt="Website project"
                         width="370"
                         height="294"
                     />
-                    <span>Technocrack</span>
-                    <p>Strona internetowa</p>
+                    <span class="img-title">Technocrack</span>
+                    <p class="img-description">Strona internetowa</p>
                 </li>
                 <li>
                     <img
@@ -83,8 +91,10 @@
                         width="370"
                         height="294"
                     />
-                    <span>Grafika New Orlean vs Golden Star</span>
-                    <p>Dizajn</p>
+                    <span class="img-title"
+                        >Grafika New Orlean vs Golden Star</span
+                    >
+                    <p class="img-description">Dizajn</p>
                 </li>
                 <li>
                     <img
@@ -93,8 +103,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Restauracja Seafood</span>
-                    <p>Aplikacja</p>
+                    <span class="img-title">Restauracja Seafood</span>
+                    <p class="img-description">Aplikacja</p>
                 </li>
                 <li>
                     <img
@@ -103,8 +113,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Projekt Prime</span>
-                    <p>Marketing</p>
+                    <span class="img-title">Projekt Prime</span>
+                    <p class="img-description">Marketing</p>
                 </li>
                 <li>
                     <img
@@ -113,8 +123,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Projekt Boxes</span>
-                    <p>Aplikacja</p>
+                    <span class="img-title">Projekt Boxes</span>
+                    <p class="img-description">Aplikacja</p>
                 </li>
                 <li>
                     <img
@@ -123,8 +133,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Inspiration has no Borders</span>
-                    <p>Strona internetowa</p>
+                    <span class="img-title">Inspiration has no Borders</span>
+                    <p class="img-description">Strona internetowa</p>
                 </li>
                 <li>
                     <img
@@ -133,8 +143,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Magazyn Limited Edition</span>
-                    <p>Dizajn</p>
+                    <span class="img-title">Magazyn Limited Edition</span>
+                    <p class="img-description">Dizajn</p>
                 </li>
                 <li>
                     <img
@@ -143,8 +153,8 @@
                         width="370"
                         height="294"
                     />
-                    <span>Projekt LAB</span>
-                    <p>Marketing</p>
+                    <span class="img-title">Projekt LAB</span>
+                    <p class="img-description">Marketing</p>
                 </li>
                 <li>
                     <img
@@ -153,31 +163,37 @@
                         width="370"
                         height="294"
                     />
-                    <span>Growing Bussines</span>
-                    <p>Aplikacja</p>
+                    <span class="img-title">Growing Bussines</span>
+                    <p class="img-description">Aplikacja</p>
                 </li>
             </ul>
         </main>
+        <!--FOOTER-->
         <footer>
-            <a href="./index.html"
+            <a class="main-link-decor" href="index.html"
                 ><span class="logo-left-part">Web</span
-                ><span class="logo-right-part">Studio</span></a
+                ><span class="logo-right-part-footer">Studio</span></a
             >
             <address>
-                <ul>
+                <ul class="contact-list-footer">
                     <li>
                         <a
+                            class="contact-item-address"
                             href="https://goo.gl/maps/UKCzapCsmyYEoZtA6"
                             target="_blank"
                             >m. Warszawa, Aleje Jerozolimskie , 00-508</a
                         >
                     </li>
                     <li>
-                        <a href="mailto:info@devstudio.com"
+                        <a class="contact-item" href="mailto:info@devstudio.com"
                             >info@devstudio.com</a
                         >
                     </li>
-                    <li><a href="tel:48111111111">+48 111 111 111</a></li>
+                    <li>
+                        <a class="contact-item" href="tel:48111111111"
+                            >+48 111 111 111</a
+                        >
+                    </li>
                 </ul>
             </address>
         </footer>
