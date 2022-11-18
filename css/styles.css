@@ -20,6 +20,7 @@ body {
 }
 .main-link-decor {
     text-decoration: none;
+    font-weight: 700;
 }
 .link-list {
     list-style: none;
@@ -122,6 +123,15 @@ nav a {
 .contact-item:focus {
     color: #2196f3;
     
+}
+.main-site-articles{
+    
+}
+.main-articles-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 30px;
 }
 .main-page-img-section-list{
     list-style: none;
