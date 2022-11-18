@@ -121,9 +121,18 @@ body {
     list-style: none;
     text-align: center;
     gap: 30px;
+    letter-spacing: 0.03em;
+}
+.articles-list h4 {
+    color: var(--grey-background);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.articles-list p {
+    color: var(--light-grey);
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 .job-list {
     list-style: none;
