@@ -6,6 +6,7 @@
     --footer-grey: #2f303a;
     --logo-black: #000;
     --footer-contact-grey: rgba(255, 255, 255, 0.6);
+    --button-background: #f5f4fa;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -83,7 +84,7 @@ body {
     list-style: none;
 }
 .category-select {
-    background-color: var(--white-background);
+    background-color: var(--button-background);
     outline: none;
     border: none;
     border-radius: 4px;
